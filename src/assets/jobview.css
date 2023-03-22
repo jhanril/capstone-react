@@ -1,0 +1,44 @@
+.page-header {
+    background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 1) 11%,
+            rgba(9, 9, 121, 1) 53%,
+            rgba(0, 212, 255, 1) 98%
+        )
+        no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.page-caption {
+    padding-top: 85px;
+    padding-bottom: 130px;
+}
+.page-title {
+    font-size: 46px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-section {
+    position: relative;
+    bottom: 60px;
+    max-width: 996px;
+    margin: auto;
+}
+.card-block {
+    padding: 40px 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.btn-addpad {
+    padding: 15px 40px !important;
+}
+@media (max-width: 528px) {
+    .card-block {
+        padding: 40px 20px;
+    }
+}
